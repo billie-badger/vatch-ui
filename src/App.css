@@ -22,6 +22,22 @@
   font-size: large;
 }
 
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 5em;
+  height: 2.5em;
+  background: black;
+  color: white;
+  cursor: pointer;
+  box-shadow: 2px 2px 25px 1px rgba(0, 0, 0, 0.1);
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
