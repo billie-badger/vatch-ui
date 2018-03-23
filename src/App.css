@@ -32,10 +32,17 @@
   margin-top: 50px;
   width: 5em;
   height: 2.5em;
-  background: black;
+  background: #345ed5;
   color: white;
   cursor: pointer;
+  border-radius: 0px 5px 0px 0px;
   box-shadow: 2px 2px 25px 1px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: #00ffff;
+  border: 2px solid black;
+  color: black;
 }
 
 @keyframes App-logo-spin {
